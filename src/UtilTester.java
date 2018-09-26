@@ -25,7 +25,7 @@ public class UtilTester {
 
     @Test
     public void testBasicPositivePower() {
-        assertEquals(2, MathUtils.raiseToPower(2, 1), delta);
+        assertEquals(2, MathUtils.raiseToPower(2, 0), delta);
         assertEquals(25, MathUtils.raiseToPower(5, 2), delta);
         assertEquals(65536, MathUtils.raiseToPower(2, 16), delta);
     }
